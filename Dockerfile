@@ -12,4 +12,4 @@ FROM nginx
 add ./nginx.conf /etc/nginx
 WORKDIR MYAPP
 #CMD ["java","-jar","web.war"]
-EXPOSE 8081
+#EXPOSE 8076
